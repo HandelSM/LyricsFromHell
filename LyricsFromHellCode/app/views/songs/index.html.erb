@@ -16,7 +16,7 @@
       <tr>
         <td><%= song.name %></td>
         <td><%= song.band %></td>
-        <td><%= song.picture %></td>
+        <td><img src="<%= song.picture %>" height = 100/></td>
         <td><%= song.lyrics %></td>
         <td><%= link_to 'Show', song %></td>
         <td><%= link_to 'Edit', edit_song_path(song) %></td>
